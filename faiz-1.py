@@ -1,1 +1,0 @@
-print("commit pertama faiz")
