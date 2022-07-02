@@ -61,8 +61,8 @@ if __name__ == '__main__':
                 print("Sedang")
             else : 
                 print("Jauh")
-                
-            time.sleep(1)
+
+            time.sleep(0.1)
 
         # Reset by pressing CTRL + C
     except KeyboardInterrupt:
