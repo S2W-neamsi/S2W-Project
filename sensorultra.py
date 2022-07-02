@@ -47,12 +47,21 @@ if __name__ == '__main__':
 
         
             print ("Measured Distance = %.1f cm" % dist)
+
+            # logika tambahan
+            '''
+            jarak:
+            < 20 cm print dekat
+            20 - 50 cm print medium
+            > 50 cm print jauh
+            '''
             if dist < 20 :
                 print("Dekat")
             elif dist > 20 and dist <= 50:
                 print("Sedang")
             else : 
                 print("Jauh")
+                
             time.sleep(1)
 
         # Reset by pressing CTRL + C
@@ -62,11 +71,5 @@ if __name__ == '__main__':
 
 
 
-# logika tambahan
-'''
-jarak:
-< 20 cm print dekat
-20 - 50 cm print medium
-> 50 cm print jauh
-'''
+
 
